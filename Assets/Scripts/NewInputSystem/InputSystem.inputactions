@@ -1,0 +1,54 @@
+{
+    "name": "InputSystem",
+    "maps": [
+        {
+            "name": "Action",
+            "id": "0ebb4dbb-b37d-4e81-aebd-0790f57c5476",
+            "actions": [
+                {
+                    "name": "MoveCubes",
+                    "type": "Button",
+                    "id": "0b080f83-607b-4ead-bbaa-3ea12f68ec1c",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Quit",
+                    "type": "Button",
+                    "id": "529694d5-d616-4b49-8110-c7a4ac0fdfad",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "d173e755-d304-484b-a6e9-2fb56f2bfb57",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MoveCubes",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "64fed348-d645-405c-8773-51b5103452cf",
+                    "path": "<Keyboard>/escape",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Quit",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
